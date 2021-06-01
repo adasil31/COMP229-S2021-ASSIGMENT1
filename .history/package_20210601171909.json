@@ -1,6 +1,6 @@
 {
-  "name": "0.0.1",
-  "version": "0.0.2",
+  "name": "comp229-s2021-assigment1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
