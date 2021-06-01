@@ -6,8 +6,8 @@
     "start": "node ./server.js"
   },
   "engines": {
-    "node": "^10.00.0",
-    "npm": "^6.0.0"
+    "node": "^10.00",
+    "npm": "^7.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
