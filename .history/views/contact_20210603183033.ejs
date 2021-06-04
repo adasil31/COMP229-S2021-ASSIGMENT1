@@ -1,0 +1,39 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+<!--Main Content-->
+<main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"><%=title %></h1>
+      
+      
+
+
+  
+ 
+      <h3 class="display-5">Please follow me at social media:</h3>
+
+        <th><p><i class="fab fa-lg fa-instagram"></i> Instagram:<a href= "https://www.instagram.com/alex_rio_40/" target="_blank"> <b>@alex_rio_40 </a></b></p></th>
+        <th><p><i class="fab fa-lg fa-linkedin"></i> linkedin:<a href= "https://www.linkedin.com/in/alessandro-s-36316a17a/" target="_blank"> <b>Alessandro-Santos </a></b></p></th>
+        <p><i class="fab fa-lg fa-git"></i> Github: <a href= "https://github.com/adasil31" target="_blank"><b>adasil31</a></b></p>
+      
+       <div class="form-container">
+       
+       <form method="POST" action="/contact">
+        <input type="text" name="name">
+        <input type="email" name="email"/>
+        <input type="submit" value="submit" />
+       </form>
+
+       </div><br>
+         <p><i class="fas fa-lg fa-mobile-alt"></i> Phone: <b>647-865-6094</b></p> 
+         <p><i class="fas fa-lg fa-house-alt"></i> Address: <b>33 Charles Street Est - Toronto - ON - Canada - M4Y OA2</b></p> 
+       </body>
+
+    </div>
+  </main>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>

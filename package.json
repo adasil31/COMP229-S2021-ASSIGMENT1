@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "body-parser": "^1.18.3",
     "bootstrap": "^5.0.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -19,11 +20,14 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
+    "nodemailer": "^6.6.1",
     "popper.js": "^1.16.1"
   },
   "description": "assigment1 app for comp229 week3",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adasil31/COMP229-S2021-ASSIGMENT1.git"
@@ -33,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/adasil31/COMP229-S2021-ASSIGMENT1/issues"
   },
-  "homepage": "https://github.com/adasil31/COMP229-S2021-ASSIGMENT1#readme"
+  "homepage": "https://github.com/adasil31/COMP229-S2021-ASSIGMENT1#readme",
+  "keywords": []
 }

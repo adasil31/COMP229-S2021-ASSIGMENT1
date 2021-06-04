@@ -1,0 +1,59 @@
+<!--Main Navigation-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="%PUBLIC_URL%//Content/A.jpg" alt="logo" class="navbar-brand" />
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto justify-content-end" >
+        <% if (title == "Home") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item"> 
+                <% }  %>
+          <a class="nav-link" href="/home"><i class="fas fa-home"></i> Home </a>
+        </li>
+        <% if (title == "About") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item"> 
+                <% }  %>
+       
+        <li class="nav-item active">
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About </a>
+        </li>
+        <% if (title == "Project") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item"> 
+                <% }  %>
+        <li class="nav-item active">
+          <a class="nav-link" href="/project"><i class="fas fa-code-branch"></i> Project </a>
+        </li>
+        <% if (title == "Services") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item"> 
+                <% }  %>
+        <li class="nav-item active">
+          <a class="nav-link" href="/services"><i class="fas fa-briefcase"></i> Service </a>
+        </li>
+        <% if (title == "Contact") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item"> 
+                <% }  %>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact"><i class="far fa-address-book"></i> Contact </a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+
+
+  
+
+
+
+
+
+

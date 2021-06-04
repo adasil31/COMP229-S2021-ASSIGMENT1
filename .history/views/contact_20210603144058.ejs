@@ -1,0 +1,40 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+<!--Main Content-->
+<head>
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"></h1>
+      <p><%=paratxt %></p>
+      
+
+<div class="contact-section">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href=/css/style.css>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="http://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta name="vieport" content="width-device-width, initial-scale=1.0">
+  </head>
+       <bod>
+       <div class="form-container">
+       <form class="contact-form"><br>
+       <h2>Contact</h2>
+       <input type="text" id="Fname" placeholder="First Name"></input><br>
+        <input type="text" id="familyName" placeholder="Family Name"></input><br>
+       <input type="email" id="email" placeholder="Email"></input><br>
+       <input type="test" id="subject" placeholder="Subject"></input><br>
+       <textarea id="message" placeholder="message" cols="100" rows="5"></textarea><br>
+       <input type="submit" class="submit" value="Send your message"><br>
+       </form>      
+       </div>
+       </bod>
+
+    </div>
+    <script src="views/style.css"></script>
+  </main>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
