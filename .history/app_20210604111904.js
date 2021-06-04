@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 
-//As users type URL, slash will router will redirect to the indexRouter
+//As user where URL will router will redirect to cat the indexRouter
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
